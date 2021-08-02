@@ -1,0 +1,1381 @@
+body{
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* START OF NAV BAR */
+
+.container {
+    background-color:white;
+    height: 50px ;
+    
+}
+
+.logo {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+}
+
+.logo2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-image { 
+    width: 40px;
+    height: 40px;
+    padding-left: 100px ;
+   
+}
+
+.logo-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -0px;
+}
+
+.logo-head2{
+
+    font-size: 15px;
+    margin-top: -20px;
+
+}
+
+.link-head {
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+.link-head ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+    
+}
+
+li {
+    margin: 10px;
+   
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(100, 24, 11);
+    color: rgb(108, 108, 167);
+}
+
+/* END OF NAV BAR */
+
+/* START OF BANNER */
+
+.banner {
+    background-color: rgb(57, 45, 90);
+    height: 500px;
+    display: flex;
+    background-image: url(../image/bg\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.java {
+    /* border: 2px solid black; */
+    width: 60%;
+}
+
+.java1 {
+    font-size: 38px;
+    color: white;
+    padding: 50px 70px 0px 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.java2 {
+    color: rgb(201, 187, 187);
+    padding: 0px 70px 20px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 230px;
+    width: 50%;
+    
+    
+}
+
+.enrol {
+    /* border: 1px solid yellow; */
+    margin-top: 120px;
+
+}
+
+.enrol-flex {
+    display: flex;
+    color: white;
+}
+
+.enrol-list {
+    margin-left: 9%;
+    margin-top: -20px;
+}
+
+.enrol-reply {
+    margin-left: 43%;
+    margin-top: -20px;
+}
+
+.enrol1 {
+    color: white;
+    padding: 0px 0 0px 70px;
+    font-size: 20px;
+}
+
+.enrol2 {
+    color: white;
+    padding: 0px 0 0px 70px;
+}
+
+.form {
+    /* border: 2px solid black; */
+    width: 35%;
+    margin-right: 90px;
+    background-color: white;
+    height: 390px;
+    margin-top: 40px;
+    
+}
+
+.head {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.form1 {
+    width: 180px;
+    height: 42px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.form2 {
+    width: 400px;
+    height: 42px;
+    margin-left: 20px;
+   margin-top: 20px;
+   padding-left: 10px;
+}
+
+.form3 {
+    width: 417px;
+    height: 50px;
+    margin-left: 20px;
+   margin-top: 25px;
+   background-color: blueviolet;
+   color: white;
+   outline: none;
+   cursor: pointer;
+   border: 2px solid blueviolet;
+
+
+}
+
+/* END OF BANNER */
+
+/* START OF MIDDLE SECTION */
+
+.middle-section {
+    background-color: rgb(235, 237, 238);
+    padding: 15px;
+
+}
+
+.middle {
+  
+    height: 400px;
+    display: flex;
+   
+}
+
+.middle-one {
+  padding: 0px 30px 0px 20px;
+}
+
+.middle-two {
+    width: 50%;
+    margin-left: 25%;
+    padding:0px 30px ;
+    margin-top: -20px;
+}
+
+.img2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 25px;
+
+
+}
+
+.next {
+    font-size: 19px;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+
+}
+
+/* END OF MIDDILE-SECTION */
+
+
+/* START OF BOOTCAMP-SECTION */
+
+.design {
+    display: flex;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.img1 {
+    margin-right: 150px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+
+
+.big {
+    font-size: 20px;
+}
+
+/* END OF BOOTCAMP SECTION */
+
+/* START OF WELL ROUNDED WEB DEVELOPMENT */
+
+.group {
+    height: 550px;
+    background-color: rgb(233, 241, 243);
+    padding-top: 30px;
+   
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(43, 43, 59);
+
+}
+
+.flescube {
+    display: flex;
+   
+}
+
+.img3 {
+    height: 350px;
+    width: 500px;
+    padding: 0px 150px 80px 0px;
+}
+
+
+.text1 {
+    font-size: 18px;
+    padding: 0px 30px 0px 30px;
+    color: rgb(43, 43, 59);
+    font-size: 16px;
+    line-height: 1.8;
+
+}
+
+
+
+.btn {
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 30px;
+    font-size: 15px;
+    border: 1px solid blueviolet;
+}
+
+/* START OF WELL ROUNDED WEB DEVELOPMENT */
+
+/* START OF STUDENT EXPERIENCE SECTION */
+
+.student {
+   width: 50%;
+   text-align: center;
+   margin-left: 25%;
+   padding: 40px 0 40px 0;
+   color: rgb(43, 43, 59);
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.student-image {
+
+    margin-left: 7%;
+    height: 38%px;
+    width: 88%;
+}
+
+
+.program-package {
+    display: flex;
+    padding: 50px;
+}
+
+.package1 {
+    width: 50%;
+    margin-left: 20px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    margin-right: 20px;
+    color: rgb(43, 43, 59);
+    font-size: 15px;
+
+}
+
+.package2 {
+    width: 50%;
+    margin-left: 20px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 15px;
+}
+
+.package-button {
+     height: 50px;
+     width: 15vw;
+     background-color: blueviolet;
+     color: white;
+     border-radius: 4px;
+     font-size: 16px;
+     outline: none;
+     border: 1px solid blueviolet;
+
+}
+
+.style-button {
+    width: 30vw;
+   position: relative;
+   left: 4em;
+   bottom: 5.3em;
+}
+
+.style-button p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.heading-line {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(43, 43, 59);
+    font-weight: bold;
+}
+
+/* END OF STUDENT EXPERIENCE SECTION */
+
+/* START OF STATE OF THE ART SECTION */
+
+.main-studio {
+    background-color: rgb(238, 241, 247);
+    padding-top: 20px;
+}
+
+
+.studio {
+    display: flex;
+}
+
+.studio-one {
+
+    width: 90%;
+    height: 90%;
+    margin: 0px 0px 20px 50px;
+
+}
+
+.studio-two {
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    outline: none;
+    border-radius: 15px;
+    position: relative;
+    right: 220px;
+    top: 80px;
+    padding: 20px;
+}
+
+.studio-head {
+    font-size: 20px;
+    color: rgb(43, 43, 59);
+
+}
+
+.studio-para {
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 15px;
+}
+
+hr {
+    width: 80px;
+    height: 5px;
+    background-color: cornflowerblue;
+    margin-top: -20px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: skyblue;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.package-button a:hover {
+    text-decoration: none;
+    color: steelblue;
+}
+
+/* END OF STATE OF THE ART SECTION */
+
+/* START OF WHY CHOOSE US SECTION */
+
+.reason {
+    display: flex;
+    margin: 35px;
+   
+}
+
+.reason-img {
+
+    width: 95%;
+    height: 90%;
+    margin-top: -40px;
+}
+
+.reason-choose {
+    padding: 0px 20px 0px 10px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+    /* width: 200%; */
+    margin-top: -2em;
+    
+}
+
+.head-choose {
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 40vw;
+    margin-left: 53%;
+    position: relative;
+    top: 1.5em;
+   
+}
+
+
+.choose {
+
+    padding-top: 25px;
+    font-size: 15.5px;
+}
+
+.reason-choose li {
+    font-size: 15.5px;
+}
+
+/* END OF WHY CHOOSE US SECTION */
+
+/* START OF CAREER SUPPORT SECTION */
+
+.alignment {
+    text-align: center;
+}
+
+.alignment h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.alignment-para {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 45px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+}
+
+.flex-bottom{
+
+    display: flex;
+}
+
+.flex-img {
+    width: 100%;
+    height: 95%;
+    margin: 0px 0px 0px 50px;
+}
+
+.bottom-para {
+    width: 80%;
+    margin: 0px 40px 0px 50px;
+    padding: 15px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+
+}
+
+.bottom-para button{
+    width: 250px;
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    
+}
+
+/* END OF CAREER SUPPORT SECTION */
+
+/* START OF INTERSTED IN WHAT YOU WILL LEARN SECTION */
+
+.course-program {
+    background-color: rgb(221, 233, 232);
+    height: 350px;
+}
+
+.course-program1 {
+   border: 2px solid rgb(161, 78, 238);
+   height: 28%;
+   width: 60%;
+   display: flex;
+  background-color: rgb(161, 78, 238);
+  color: azure;
+  padding: 30px;
+  border-radius: 13px;
+  position: relative;
+  left: 20%;
+  top: 29%;
+ 
+}
+
+.course-program1 button{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: rgb(132, 48, 241);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border: 1px solid white;
+    
+}
+
+.wrap-head {
+
+    line-height: 1.5;
+    width: 70%;
+    margin-left: 50px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* END OF INTERSTED IN WHAT YOU WILL LEARN SECTION */
+
+/* START OF FREQUENTLY ASK QUESTION SECTION */
+
+.faq-head {
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    margin-top: 40px;
+}
+
+.faq-para {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+
+.faq {
+    display: flex;
+    padding: 40px;
+}
+
+.faq1 {
+    width: 50%;
+    padding: 20px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.faq button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(127, 95, 241);
+    margin-top: 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border: 1px solid rgb(127, 95, 241);
+}
+
+/* END OF FREQUENTLY ASK QUESTION SECTION */
+
+/* START OF GET STARTED WITH... SECTION */
+
+
+.advert {
+    display: flex;
+    background-color: blueviolet;
+    padding: 20px;
+   
+}
+
+.advert-java {
+    border: 2px solid white;
+    width: 40%;
+    background-color: white;
+     margin-left: 10%;
+     height: 45%;
+     margin-top: 70px;
+     border-radius: 3px;
+    
+}
+
+.advert-naira {
+    /* border: 2px solid white; */
+    width: 30%;
+    background-color: rgb(196, 25, 25);
+    padding: 40px 20px 30px 70px;
+    margin-left: 5%;
+    height: 45%;
+    margin-top: 70px;
+    border-radius: 3px;
+    
+    
+}
+
+.advert-java h3{
+    padding: 30px 0px 0px 30px;
+    color: rgb(58, 47, 47);
+}
+
+.advert-java h1 {
+    padding: 0px 0px 10px 30px;
+    color: rgb(58, 47, 47);
+    font-size: 30px;
+    /* text-align: center; */
+    font-weight: lighter;
+    width: 70%;
+}
+
+.advert-java h2 {
+    padding: 0px 0px 10px 30px;
+    font-size: 17px;
+    color: rgb(100, 97, 97);
+}
+
+.advert-java p {
+    padding: 0px 30px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(43, 43, 59);
+    font-size: 14px;
+    width: 80%;
+}
+
+.advert-naira h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.advert-naira li{
+    color: white;
+    width: 70%;
+}
+
+.advert-naira button {
+    width: 410px;
+    height: 50px;
+    background-color: rgb(127, 95, 241);
+    margin-top: 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+    border: 1px solid rgb(127, 95, 241);
+
+}
+
+.naira {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+
+/* END OF GET STARTED WITH... SECTION */
+
+/* START OF FOOTER SECTION */
+
+.main-footer {
+    background-color: rgb(25, 26, 27);
+    display: flex;
+    padding: 50px;
+}
+
+.footer-two {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-three {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-four {
+    width: 32%;
+    color: rgb(201, 187, 187);
+}
+
+.last-head {
+    margin-top: -30px;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.last-para {
+    width : 50%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(201, 187, 187);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+
+.footer-email {
+    width: 115%;
+    height: 45px;
+    padding-left: 12px;
+    margin-top: -25px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.footer-submit {
+    width: 120%;
+    height: 55px;
+    background-color: rgb(127, 95, 241);
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(201, 187, 187);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(127, 95, 241);
+
+}
+
+.footer-three p {
+    font-size: 20px;
+}
+
+.fab {
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 15px;
+    padding: 5px;
+    color: rgb(201, 187, 187);
+   
+}
+
+.footer-four p {
+    font-size: 17px;
+    margin-left: 33%;
+    color: rgb(201, 187, 187);
+    
+}
+
+.img-fixed {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    border-radius: 50%;    
+}
+
+/* END OF FOOTER-SECTION */
+
+
+@media (max-width : 767px) {
+body {
+    
+}
+
+.logo-head {
+   display: inline-block;
+   font-size: 20px;
+   width: 70vw;
+   margin-left: 10px;
+
+}
+.logo {
+    position: relative;
+    right: 20%;
+    margin-top: 20px;
+
+    
+}
+
+.logo-head2 {
+    width: 80vw;
+    margin-left: 10px;
+}
+
+.link-head {
+    display: none;
+}
+
+.banner {
+    margin-top: 15px;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+ .java1 {
+     font-size: 28px;
+     width: 70vw;
+     position: relative;
+     right: 20%;
+     bottom: 12%;
+ }
+
+ .java2 {
+     width: 75vw;
+     font-size: 15px;
+     position: relative;
+     top: -15%;
+     right:20% ;
+
+ }
+
+ .enrol {
+     position: relative;
+     bottom: 40%;
+     left: 5px;
+     font-size: 11px;
+     width: 90vw;
+ }
+
+ .enrol1 {
+     padding: 0px;
+     margin: 0px 0px 15px 15px;
+     font-size: 15px;
+
+
+     
+ }
+
+ .enrol-flex{
+     position: relative;
+     right: 4%;
+ }
+
+ .form {
+    width: 96.25vw;
+    margin: 0px;
+    position: relative;
+    bottom: 23%;
+    
+   
+ }
+
+ .form1 {
+     width: 88%;
+     height: 30px;
+     margin: 10px 15px;
+ }
+
+ .form2 {
+    width: 88%;
+    height: 30px;
+    margin: 10px 15px;
+ }
+
+ .form3 {
+    width: 93%;
+    height: 35px;
+    margin: 10px 15px;
+ }
+
+ .middle {
+     display: flex;
+     flex-direction: column;
+    
+ }
+
+ .next {
+     font-size: 15px;
+     width: 75vw;
+     margin-top: -8px;
+     position: relative;
+     right: 7%;
+ }
+
+ .img2 {
+     position: relative;
+     right: 45%;
+     bottom: 15px;
+ }
+
+ .middle-two {
+     margin-top: 130%;
+     position: relative;
+     right: 30%;
+    
+ }
+
+ .middle-two  .img2 {
+    position: relative;
+    left: -8.8em;
+    bottom: 6em;
+}
+
+.middle-two .next {
+  margin-top: -5.5em;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+}
+
+.design .next {
+    margin-left: 1em;
+    margin-top: -1.5em;
+    width: 80vw;
+}
+
+.design .img1 {
+    margin-left: 7em;
+}
+
+.group {
+    height: 170vh;
+}
+
+.flescube { 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text1 {
+    font-size: 15px;
+}
+
+.btn {
+    width: 80vw;
+    margin-bottom: 15px;
+}
+
+.img3 {
+    width: 96vw;
+    height: 45vh;
+}
+
+.student h2 {
+    width: 70vw;
+    position: relative;
+    right: 35px;
+}
+
+.program-package {
+    display: flex;
+    flex-direction: column;
+    width: 150vw;
+    
+}
+
+.package-button {
+        width: 75vw;
+        margin-top: 15px;
+}
+
+.style-button p {
+    width: 80vw;
+    position: relative;
+    top: 20px;
+}
+
+.studio {
+    display: flex;
+    flex-direction: column;
+    height:130vh
+}
+.studio-two {
+    position: relative;
+    left: 30px;
+    top: -1em;
+    width: 83vw;
+    height: 75vh;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-choose {
+    width: 80vw;
+    font-size: 20px;
+    position: relative;
+    right: 9.5em;
+    top: 3em;
+    height: 15vh;
+}
+
+.flex-bottom {
+    flex-direction: column;
+}
+ /* .course-program {
+     width: 110vw;
+     position: relative;
+     right: 1em;
+ } */
+
+ .faq {
+     flex-direction: column;
+ }
+
+ .faq1 {
+     width: 85vw;
+ }
+
+
+ .advert {
+     flex-direction: column;
+     width: 120vw;
+ }
+
+ .advert-java {
+     width: 90vw;
+     
+ }
+
+ .advert-naira {
+    width: 75vw;
+    position: relative;
+    left: 2em;
+ }
+
+ .main-footer {
+     flex-direction: column-reverse;
+     width: 107vw;
+ }
+
+ .footer-two {
+     width: 100vw;
+ }
+
+ .footer-email {
+     width: 70vw;
+
+ }
+
+ .footer-submit {
+     width: 74vw;
+     margin-bottom: 20px;
+ }
+
+ .footer-three {
+     width: 80vw;
+ }
+
+
+    
+}
+
+
+
+/* mobile view */
+
+@media (max-width : 480px){
+
+        body {
+            /* background: blue; */
+        }
+
+        .logo {
+            position: relative;
+            left: -6em;
+        }
+
+
+        .middle {
+            height: 200vh;
+            margin-top: 50%;
+        }
+
+        .img2 {
+            margin-left: 9em;
+        }
+
+        .middle-two{
+          margin-top: 0px;
+        }
+
+        .middle-two .img2 {
+            margin-left: 13em;
+        }
+
+        .design .img1 {
+            margin-left: 4em;
+        }
+
+        .course-program {
+            display: none;
+        }
+
+        .group {
+            height: 210vh;
+
+        }
+
+        .student h2 {
+            width: 70vw;
+            font-size: 20px;
+        }
+        .main-studio {
+            width: 100vw;
+            height: 140vh;
+        }
+
+        .studio-two {
+            width: 85vw;
+            height: 70vh;
+           
+        }
+
+        .studio-head {
+            font-size: 15px;
+        } 
+
+        .studio-para {
+            font-size: 12px;
+        }
+
+        .head-choose {
+            width: 80vw;
+            font-size: 17px;
+            text-align: center;
+        }
+
+
+        .reason-choose {
+            width: 85vw;
+        }
+
+        .reason-img {
+            width: 90vw;
+            margin-left: -30px;
+        }
+
+        .choose {
+            font-size: 12px;
+            margin-left: -30px;
+        }
+
+        .reason-choose li {
+            font-size: 12px;
+            margin-left: -30px;
+        }
+
+        .alignment h1 {
+            font-size: 19px;
+        }
+
+        .alignment p {
+            width: 70vw;
+            text-align: center;
+            font-size: 13px;
+            margin-left: 35px;
+        }
+
+        .bottom-para h2 {
+            font-size: 14px;
+            margin-left: -35px;
+        }
+
+        .bottom-para p {
+            font-size: 12px;
+            margin-left: -35px;
+        }
+
+        .flex-img {
+            margin-left: -0.5px;
+            width: 95vw;
+        }
+
+        .faq-head {
+            font-size: 16px;
+        }
+
+        .faq-para {
+            font-size: 12px;
+            width: 80vw;
+            margin-left: 10px;
+        }
+
+        .faq1 h2 {
+            font-size: 14px;
+            margin-left: -35px;
+            width: 85vw;
+        }
+
+        .faq1 p {
+            font-size: 11px;
+            margin-left: -35px;
+            width: 85vw;
+        }
+
+        .faq1 li {
+            font-size: 11px;
+            margin-left: -55px;
+            width: 80vw;
+        }
+
+        .advert {
+            width: 90vw;
+        }
+
+        .advert-java {
+            width: 85vw;
+            margin-left: -3px;
+            
+        }
+
+        .advert-java h1 {
+            font-size: 22px;
+            width: 70vw;
+        }
+
+        .advert-java h2 {
+            font-size: 14px;
+        }
+
+        .advert-java p {
+            font-size: 12px;
+        }
+
+        .advert-java li {
+            font-size: 12px;
+        }
+
+        .advert-naira {
+            width: 58vw;
+            margin-left: -35px;
+            margin-top: 15px;
+        }
+
+        .advert-naira h2 {
+            font-size: 23px;
+            margin-left: -45px;
+        }
+
+        .advert-naira li {
+            font-size: 12px;
+            margin-left: -50px;
+            width: 70vw;
+
+        }
+
+        .advert-naira button {
+           width: 70vw;
+           margin-left: -15px;
+        }
+
+        .img-fixed {
+            margin-left: 35%;
+        }
+
+}
+
+
+

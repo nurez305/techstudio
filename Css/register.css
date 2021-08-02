@@ -1,0 +1,267 @@
+body{
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color:white;
+    height: 50px ;
+    /* border: 1px solid white; */
+    box-shadow: 1px 1px 1px 1px rgb(233, 224, 224);
+
+    
+}
+
+.logo {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+}
+
+.logo2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo2 a:hover {
+    text-decoration: underline;
+}
+
+.logo-image { 
+    width: 40px;
+    height: 40px;
+    padding-left: 100px ;
+   
+}
+
+.logo-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -0px;
+}
+
+.logo-head2{
+
+    font-size: 15px;
+    margin-top: -20px;
+
+}
+
+.link-head {
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+.link-head ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+    
+}
+
+li {
+    margin: 10px;
+   
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(100, 24, 11);
+    color: rgb(93, 93, 248);
+}
+
+
+.flex-form {
+    display: flex;
+}
+
+.form-reg {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    padding-left: 30px;
+    width: 150%;
+    margin-left: 110px;
+}
+
+.form-reg h1 {
+
+    font-size: 52px;
+    margin: 3px 0px 25px 15px;
+}
+
+
+.form-reg2 {
+    width: 78%;
+    height: 55px;
+    background-color: rgb(197, 187, 187);
+    outline: none;
+    border: 1px solid white;
+    margin: 15px 0px 10px 20px;
+    display: block;
+}
+
+.form-reg3 {
+    width: 80%;
+    height: 57px;
+    background-color: rgb(197, 187, 187);
+    outline: none;
+    border: 1px solid white;
+    margin: 15px 0px 10px 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    color: rgb(92, 89, 89);
+    display: block;
+}
+
+.password-form {
+    width: 155%;
+    height: 55px;
+    background-color: rgb(197, 187, 187);
+    outline: none;
+    border: 1px solid white;
+    
+}
+
+.input-flex input, label {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.top-class {
+    display: inline-block;
+    margin: 10px 120px 15px 20px;
+}
+
+.btn-reg {
+    width: 80%;
+    height: 60px;
+    background-color: rgb(151, 57, 240);
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(151, 57, 240);
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.top-class label {
+    display: block;
+}
+
+input {
+    padding-left:10px ;
+}
+
+
+.img-reg img {
+
+    border-radius: 50%;
+    margin-left: -10%;
+    margin-top: 40%;
+}
+
+.img-reg p {
+    width: 80%;
+    text-align: center;
+    margin-left: -25%;
+    color: rgb(64, 66, 66);
+    font-style: italic;
+}
+
+
+/* Footer begining  */
+
+
+.main-footer {
+    background-color: rgb(25, 26, 27);
+    display: flex;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+.footer-two {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-three {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-four {
+    width: 32%;
+    color: rgb(201, 187, 187);
+}
+
+.last-head {
+    margin-top: -30px;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.last-para {
+    width : 50%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(201, 187, 187);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+
+.footer-email {
+    width: 115%;
+    height: 45px;
+    padding-left: 12px;
+    margin-top: -25px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.footer-submit {
+    width: 120%;
+    height: 55px;
+    background-color: rgb(127, 95, 241);
+    margin-top: 10px;
+    border-radius: 4px;
+    color: rgb(201, 187, 187);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(127, 95, 241);
+
+}
+
+.footer-three p {
+    font-size: 20px;
+}
+
+.fab {
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 15px;
+    padding: 5px;
+    color: rgb(201, 187, 187);
+   
+}
+
+.footer-four p {
+    font-size: 17px;
+    margin-left: 33%;
+    color: rgb(201, 187, 187);
+    
+}
+

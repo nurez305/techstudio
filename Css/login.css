@@ -1,0 +1,201 @@
+body{
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color:white;
+    height: 50px ;
+    /* border: 1px solid white; */
+    box-shadow: 1px 1px 1px 1px rgb(233, 224, 224);
+   
+
+    
+}
+
+.logo {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+}
+.logo2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-image { 
+    width: 40px;
+    height: 40px;
+    padding-left: 100px ;
+   
+}
+
+.logo-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -0px;
+}
+
+.logo-head2{
+
+    font-size: 15px;
+    margin-top: -20px;
+
+}
+
+.link-head {
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+.link-head ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+    
+}
+
+li {
+    margin: 10px;
+   
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(100, 24, 11);
+    color: rgb(93, 93, 248);
+}
+
+/* END OF NAV BAR */
+
+.container-form {
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.container-form h1 {
+    font-size: 40px;
+}
+
+.input-form {
+    width: 100%;
+    height: 55px;
+    margin: 20px 0px 10px 0px;
+    background-color: rgb(197, 187, 187);
+    outline: none;
+    border: 1px solid white;
+}
+
+.btn-form {
+    width: 102%;
+    height: 60px;
+    background-color: rgb(151, 57, 240);
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(151, 57, 240);
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(184, 118, 247);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer section */
+
+.main-footer {
+    background-color: rgb(25, 26, 27);
+    display: flex;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+.footer-two {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-three {
+    width: 33%;
+    color: rgb(201, 187, 187);
+}
+
+.footer-four {
+    width: 32%;
+    color: rgb(201, 187, 187);
+}
+
+.last-head {
+    margin-top: -30px;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.last-para {
+    width : 50%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    color: rgb(201, 187, 187);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+
+.footer-email {
+    width: 115%;
+    height: 45px;
+    padding-left: 12px;
+    margin-top: -25px;
+    border-radius: 5px;
+}
+
+.footer-submit {
+    width: 120%;
+    height: 55px;
+    background-color: rgb(127, 95, 241);
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(201, 187, 187);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.footer-three p {
+    font-size: 20px;
+}
+
+.fab {
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 15px;
+    padding: 5px;
+    color: rgb(201, 187, 187);
+   
+}
+
+.footer-four p {
+    font-size: 17px;
+    margin-left: 33%;
+    color: rgb(201, 187, 187);
+    
+}
+
